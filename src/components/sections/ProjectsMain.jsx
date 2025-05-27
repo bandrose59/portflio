@@ -12,6 +12,7 @@ const projects = [
     description:
       "All-in-one career development platform with AI resume builder, personalized learning paths, mock interviews, and job matching. 1k+ signups.",
     tech: ["Next.js", "TypeScript", "OpenAI", "MongoDB"],
+    category: "Web",
     link: "https://byteo.vercel.app",
     github: "https://github.com/yourusername/byteo",
   },
@@ -20,6 +21,7 @@ const projects = [
     description:
       "AI-powered legal platform offering document automation, legal chatbots, and simplified legal help.",
     tech: ["React", "Node.js", "OpenAI", "MongoDB"],
+    category: "Web",
     link: "https://alphahak.ai",
     github: "https://github.com/yourusername/alphahak",
   },
@@ -28,6 +30,7 @@ const projects = [
     description:
       "Generates ATS-optimized resumes based on user skills and project experience.",
     tech: ["React", "GPT-4", "Tailwind", "MongoDB"],
+    category: "Web",
     link: "https://resume.codex.app",
     github: "https://github.com/yourusername/resume-builder",
   },
@@ -36,6 +39,7 @@ const projects = [
     description:
       "AI system that matches users to jobs based on skill alignment and role requirements.",
     tech: ["Python", "FastAPI", "OpenAI", "Vector DB"],
+    category: "ML",
     link: "https://byteo.vercel.app/jobs",
     github: "https://github.com/yourusername/ai-job-matching",
   },
@@ -44,6 +48,7 @@ const projects = [
     description:
       "Simulated interviews with AI feedback and scoring based on industry patterns.",
     tech: ["LangChain", "GPT-4", "Node.js"],
+    category: "ML",
     link: "https://byteo.vercel.app/interview",
     github: "https://github.com/yourusername/mock-interview",
   },
@@ -52,6 +57,7 @@ const projects = [
     description:
       "Tailors courses to student goals using AI content curation and adaptive learning flows.",
     tech: ["React", "AI APIs", "Firebase"],
+    category: "Web",
     link: "https://byteo.vercel.app/learn",
     github: "https://github.com/yourusername/learning-path",
   },
@@ -60,6 +66,7 @@ const projects = [
     description:
       "Auto-generates course content with modules, quizzes, and video suggestions.",
     tech: ["Python", "OpenAI", "Supabase"],
+    category: "ML",
     link: "https://byteo.vercel.app/create-course",
     github: "https://github.com/yourusername/ai-course-builder",
   },
@@ -68,6 +75,7 @@ const projects = [
     description:
       "Interactive personal portfolio generator with AI-based layout and content population.",
     tech: ["Next.js", "Tailwind", "OpenAI"],
+    category: "Web",
     link: "https://portfoliogen.ai",
     github: "https://github.com/yourusername/ai-portfolio",
   },
@@ -76,6 +84,7 @@ const projects = [
     description:
       "Instant slide deck creation from topic or bullet inputs using GPT and design templates.",
     tech: ["React", "OpenAI", "PPTGen API"],
+    category: "Web",
     link: "https://aipresenter.app",
     github: "https://github.com/yourusername/presentation-generator",
   },
@@ -84,6 +93,7 @@ const projects = [
     description:
       "Student result viewer with secure access and built-in CGPA calculator.",
     tech: ["MERN", "JWT", "Excel Parsing"],
+    category: "Web",
     link: "https://sggsresults.app",
     github: "https://github.com/yourusername/sggs-result-site",
   },
@@ -92,6 +102,7 @@ const projects = [
     description:
       "Study platform with PCMB mock tests, topic-wise PDFs, and AI question generation. 2k+ signups.",
     tech: ["React Native", "Firebase", "GPT-3"],
+    category: "App",
     link: "https://cetstudy.app",
     github: "https://github.com/yourusername/cet-study",
   },
@@ -100,6 +111,7 @@ const projects = [
     description:
       "Community platform for coders with projects, GitHub integration, contests, and AI features.",
     tech: ["React", "Node.js", "MongoDB"],
+    category: "Web",
     link: "https://codex.sggs.app",
     github: "https://github.com/yourusername/codex-community",
   },
@@ -108,6 +120,7 @@ const projects = [
     description:
       "Online simulation-based science lab for engineering students with step-by-step instructions.",
     tech: ["Three.js", "React", "PhysicsJS"],
+    category: "Web",
     link: "https://virtualsciencelab.app",
     github: "https://github.com/yourusername/virtual-science-lab",
   },
@@ -116,6 +129,7 @@ const projects = [
     description:
       "Helps students find and book PGs and hostels near their college.",
     tech: ["MERN Stack", "Mapbox", "Firebase"],
+    category: "Web",
     link: "https://roombooking.app",
     github: "https://github.com/yourusername/room-booking",
   },
@@ -124,6 +138,7 @@ const projects = [
     description:
       "Campus-wide food delivery app with vendor management and delivery tracking.",
     tech: ["Flutter", "Firebase", "Stripe"],
+    category: "App",
     link: "https://campusfood.app",
     github: "https://github.com/yourusername/food-delivery",
   },
@@ -132,6 +147,7 @@ const projects = [
     description:
       "Platform for students to sell/buy books, notes, services inside college campus.",
     tech: ["React", "Node.js", "MongoDB"],
+    category: "Web",
     link: "https://clgmarketplace.app",
     github: "https://github.com/yourusername/college-marketplace",
   },
@@ -140,6 +156,7 @@ const projects = [
     description:
       "Showcase and manage student startups with profiles, updates, and mentor match.",
     tech: ["Next.js", "Firebase", "TailwindCSS"],
+    category: "Web",
     link: "https://startuphubs.app",
     github: "https://github.com/yourusername/college-startup-hub",
   },
@@ -148,6 +165,7 @@ const projects = [
     description:
       "Community-based matrimony platform with filters, compatibility scoring, and verification.",
     tech: ["Flutter", "Firebase", "Twilio"],
+    category: "App",
     link: "https://sayamvar.app",
     github: "https://github.com/yourusername/sayamvar",
   },
@@ -156,14 +174,7 @@ const projects = [
     description:
       "Fun animated content to teach history to kids via web and YouTube.",
     tech: ["React", "Lottie", "YouTube API"],
-    link: "https://animatedhistory.app",
-    github: "https://github.com/yourusername/animated-history",
-  },
-  {
-    title: "Animated Children's History Content",
-    description:
-      "Fun animated content to teach history to kids via web and YouTube.",
-    tech: ["React", "Lottie", "YouTube API"],
+    category: "Web",
     link: "https://animatedhistory.app",
     github: "https://github.com/yourusername/animated-history",
   },
@@ -211,16 +222,16 @@ const ProjectMain = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const filteredProjects = projects.filter((projects) => {
+  const filteredProjects = projects.filter((project) => {  // Changed from projects to project
     const matchesSearch = 
-      projects.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      projects.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      projects.tech.some((tech) =>
+      project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      project.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      project.tech.some((tech) =>
         tech.toLowerCase().includes(searchTerm.toLowerCase())
       );
     
     const matchesCategory =
-      selectedCategory === "All" || projects.category === selectedCategory;
+      selectedCategory === "All" || project.category === selectedCategory;
 
     return matchesSearch && matchesCategory;
   });
@@ -255,7 +266,7 @@ const ProjectMain = () => {
             />
 
             <div className="flex gap-2 flex-wrap justify-center">
-              {["All", "Web", "ML", "DevOps"].map((category) => (
+              {["All", "Web", "App", "ML", "DevOps"].map((category) => (
                 <button
                   key={category}
                   onClick={() => setSelectedCategory(category)}
