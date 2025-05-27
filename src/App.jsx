@@ -11,7 +11,6 @@ import { Testimonial } from "./components/sections/Testimonial";
 import { GetInTouch } from "./components/sections/GetInTouch";
 import { Home } from "./components/sections/Home";
 import { Dock } from "./components/sections/Dock";
-import { ErrorPage } from "./components/sections/Error";
 import ProjectMain from "./components/sections/ProjectsMain";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Certificates from "./components/sections/Certifications";
@@ -54,7 +53,7 @@ function App() {
           <Route path="/projects" element={<ProjectMain />} />
           <Route path="/certificates" element={<Certificates />} />
           <Route path="/blogs" element={<BlogPage />} />
-          <Route path="*" element={<ErrorPage />} />
+          <Route path="*" element={<MainJsx />} />
         </Routes>
       </div>
     </BrowserRouter>
