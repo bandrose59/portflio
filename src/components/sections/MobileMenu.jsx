@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 
+import { Link } from "react-router-dom";
+
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
     <div
@@ -18,46 +20,37 @@ export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
       >
         &times;
       </button>
-
-      <a
-        href="#home"
-        onClick={() => setMenuOpen(false)}
-        className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${
-          menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-        }`}
+      <Link
+        to="/home" // or any other route
+        onClick={() => setMenuOpen(false)} // Close the menu
+        className="text-2xl font-semibold text-white my-4 transform transition-transform duration-300"
       >
         Home
-      </a>
+      </Link>
 
-      <a
-        href="#project"
-        onClick={() => setMenuOpen(false)}
-        className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${
-          menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-        }`}
+      <Link
+        to="/project" // or any other route
+        onClick={() => setMenuOpen(false)} // Close the menu
+        className="text-2xl font-semibold text-white my-4 transform transition-transform duration-300"
       >
         Project
-      </a>
+      </Link>
 
-      <a
-        href="#certifications"
-        onClick={() => setMenuOpen(false)}
-        className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${
-          menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-        }`}
+      <Link
+        to="/certificates" // or any other route
+        onClick={() => setMenuOpen(false)} // Close the menu
+        className="text-2xl font-semibold text-white my-4 transform transition-transform duration-300"
       >
-        Certifications
-      </a>
+        Certificates
+      </Link>
 
-      <a
-        href="#blog"
-        onClick={() => setMenuOpen(false)}
-        className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ${
-          menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"
-        }`}
+      <Link
+        to="/blogs" // or any other route
+        onClick={() => setMenuOpen(false)} // Close the menu
+        className="text-2xl font-semibold text-white my-4 transform transition-transform duration-300"
       >
         Blog
-      </a>
+      </Link>
     </div>
   );
 };
