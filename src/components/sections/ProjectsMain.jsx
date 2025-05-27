@@ -211,16 +211,16 @@ const ProjectMain = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const filteredProjects = projects.filter((project) => {
+  const filteredProjects = projects.filter((projects) => {
     const matchesSearch = 
-      project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      project.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      project.tech.some((tech) =>
+      projects.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      projects.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      projects.tech.some((tech) =>
         tech.toLowerCase().includes(searchTerm.toLowerCase())
       );
     
     const matchesCategory =
-      selectedCategory === "All" || project.category === selectedCategory;
+      selectedCategory === "All" || projects.category === selectedCategory;
 
     return matchesSearch && matchesCategory;
   });
